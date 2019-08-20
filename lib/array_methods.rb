@@ -1,13 +1,11 @@
 def find_element_index(array, value_to_find)
   # Add your solution here
-  scale = [2,3,4,5]
- 
-scale.length.times.find_index { |index| 2
-  if value_to_find == scale then
-    puts array[index]
-end
-  
-}
+  array.length.times {
+    if array.index == value_to_find
+      return array.index
+    else 
+      return NIL
+  }
 end
 
 def find_max_value(array)
