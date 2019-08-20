@@ -3,8 +3,8 @@ def find_element_index(array, value_to_find)
   scale = [1,2,3,4,5]
  
 scale.length.times { |index| 4
-  if then
-    
+  if value_to_find == 4 then
+    puts array[index]
 end
   
 }
