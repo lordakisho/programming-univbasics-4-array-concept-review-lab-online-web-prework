@@ -6,7 +6,7 @@ scale.length.times { |index| 4
   if then
     
 end
-  puts array[index]
+  
 }
 end
 
